@@ -1,4 +1,38 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "description": "## Índice",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index/server.js",
+    "test": "jest "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariajosegomezcampos/SCL011-MD-Links.git"
+  },
+  "keywords": [
+    "links",
+    "analisis",
+    "md-links",
+    "markdow"
+  ],
+  "author": "maria jose gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariajosegomezcampos/SCL011-MD-Links/issues"
+  },
+  "homepage": "https://github.com/mariajosegomezcampos/SCL011-MD-Links#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "jest": "^24.9.0",
+    "marked": "^0.7.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.0"
+  }
 }

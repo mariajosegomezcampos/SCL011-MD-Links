@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node index/server.js",
+    "start": "node index.js",
     "test": "jest "
   },
   "repository": {
